@@ -7,6 +7,8 @@ class Application
     if req.path=="/testing"
       resp.write "Route not found"
       resp.status = 404
+    end
+
   end
 
 end
